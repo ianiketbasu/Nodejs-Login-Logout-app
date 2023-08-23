@@ -1,0 +1,47 @@
+/* Reset some default styles */
+body, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply basic styles to the form */
+  .my-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style labels */
+  label {
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  /* Style input fields */
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style submit button */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
